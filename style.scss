@@ -3,11 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     height: 400px;
     width: 300px;
-
     main {
         height: 100%;
         width: 100%;
@@ -18,16 +16,13 @@ body {
         align-items: center;
         flex-direction: column;
         text-align: center;
-
         #error {
             display: none;
             color: red;
             padding: 20px 0px;
         }
-
         .name {
             display: none;
-
             label {
                 font-size: 20px;
                 padding: 5px 0px;
@@ -35,7 +30,6 @@ body {
                 color: #00ffcc;
                 text-shadow: 0px 0px 5px #fff;
             }
-
             input {
                 width: 250px;
                 height: 40px;
@@ -46,7 +40,6 @@ body {
                 padding: 3px 5px;
                 margin: 5px 0;
             }
-
             button {
                 margin: 10px 0;
                 font-size: 20px;
@@ -57,19 +50,16 @@ body {
                 border: 2px solid #3498db;
                 border-radius: 5px;
                 transition: all ease-in-out .2s;
-
                 &:hover {
                     background: #fff;
                     color: #000;
                 }
-
                 &:active {
                     color: #fff;
                     background: transparent;
                 }
             }
         }
-
         .wrapper {
             .welcome {
                 p {
@@ -80,23 +70,18 @@ body {
                     right: 10px;
                 }
             }
-
             .jokes {
                 margin: 10px 0px;
-
                 h3 {
                     color: #17a2b8;
                     font-size: 25px;
                     padding: 0px 25px;
                 }
-
             }
-
             .edit {
                 position: absolute;
                 bottom: 20px;
                 right: 10px;
-
                 #edit {
                     margin: 10px 0;
                     cursor: pointer;
@@ -108,12 +93,10 @@ body {
                     padding: 2px 5px;
                     border-radius: 5px;
                     border: none;
-
                     &:hover {
                         background: #fff;
                         color: #000;
                     }
-
                     &:active {
                         color: #fff;
                         background: transparent;
@@ -133,28 +116,4 @@ body {
             }
         }
     }
-}
-
-
-
-.edit,
-footer {
-    position: absolute;
-    bottom: 20px;
-    right: 10px;
-}
-
-#edit {
-
-}
-
-footer {
-    font-size: 10px;
-    bottom: 5px;
-    color: #fff;
-}
-
-footer a {
-    text-decoration: none;
-    color: aqua;
 }

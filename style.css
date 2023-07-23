@@ -113,22 +113,4 @@ body main footer {
 body main footer a {
   text-decoration: none;
   color: aqua;
-}
-
-.edit,
-footer {
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-}
-
-footer {
-  font-size: 10px;
-  bottom: 5px;
-  color: #fff;
-}
-
-footer a {
-  text-decoration: none;
-  color: aqua;
 }/*# sourceMappingURL=style.css.map */
