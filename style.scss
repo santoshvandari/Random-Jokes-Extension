@@ -78,7 +78,7 @@ body {
             .welcome {
                 p {
                     position: absolute;
-                    color: #fff;
+                    color: $white;
                     font-size: 18px;
                     top: 20px;
                     right: 10px;
@@ -99,20 +99,20 @@ body {
                 #edit {
                     margin: 10px 0;
                     cursor: pointer;
-                    background: #3498db;
-                    color: #fff;
-                    border: 2px solid #3498db;
+                    background: $lightblue;
+                    color: $white;
+                    border: 2px solid $lightblue;
                     transition: all ease-in-out .2s;
                     font-size: 15px;
                     padding: 2px 5px;
                     border-radius: 5px;
                     border: none;
                     &:hover {
-                        background: #fff;
-                        color: #000;
+                        background: $white;
+                        color: $black;
                     }
                     &:active {
-                        color: #fff;
+                        color: $white;
                         background: transparent;
                     }
                 }
@@ -123,7 +123,7 @@ body {
             right: 10px;
             font-size: 10px;
             bottom: 5px;
-            color: #fff;
+            color: $white;
             a{
                 text-decoration: none;
                 color: aqua;
