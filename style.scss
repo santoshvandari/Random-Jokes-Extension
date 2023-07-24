@@ -4,8 +4,15 @@
     box-sizing: border-box;
 }
 //Variables
-
-
+$red: #ff0000;
+$aqua:#00ffff;
+$darkred:#e74c3c;
+$bg:#2c3e50;
+$lightgreen:#00ffcc;
+$white:#fff;
+$lightblue:#3498db;
+$darkblue:#17a2b8;
+$black:#000;
 //Mixins
 @mixin flexCenter{
     display: flex;
@@ -25,7 +32,7 @@ body {
         text-align: center;
         #error {
             display: none;
-            color: red;
+            color: $red;
             padding: 20px 0px;
         }
         .name {
@@ -34,15 +41,15 @@ body {
                 font-size: 20px;
                 padding: 5px 0px;
                 font-weight: bold;
-                color: #00ffcc;
-                text-shadow: 0px 0px 5px #fff;
+                color: $lightgreen;
+                text-shadow: 0px 0px 5px $white;
             }
             input {
                 width: 250px;
                 height: 40px;
                 font-size: 20px;
                 outline: none;
-                border: 1px solid #e74c3c;
+                border: 1px solid $darkred;
                 border-radius: 5px;
                 padding: 3px 5px;
                 margin: 5px 0;
@@ -52,13 +59,13 @@ body {
                 font-size: 20px;
                 padding: 8px 25px;
                 cursor: pointer;
-                background: #3498db;
-                color: #fff;
-                border: 2px solid #3498db;
+                background: $lightblue;
+                color: $white;
+                border: 2px solid $lightblue;
                 border-radius: 5px;
                 transition: all ease-in-out .2s;
                 &:hover {
-                    background: #fff;
+                    background: $white;
                     color: #000;
                 }
                 &:active {
@@ -80,7 +87,7 @@ body {
             .jokes {
                 margin: 10px 0px;
                 h3 {
-                    color: #17a2b8;
+                    color: $darkblue;
                     font-size: 25px;
                     padding: 0px 25px;
                 }
