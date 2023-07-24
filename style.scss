@@ -3,6 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+//Variables
+
+
+//Mixins
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 body {
     height: 400px;
     width: 300px;
@@ -11,10 +21,7 @@ body {
         width: 100%;
         position: relative;
         background-color: #2c3e50;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
+       @include flexCenter;
         text-align: center;
         #error {
             display: none;
