@@ -27,7 +27,7 @@ body {
         height: 100%;
         width: 100%;
         position: relative;
-        background-color: #2c3e50;
+        background-color: $bg;
        @include flexCenter;
         text-align: center;
         #error {
@@ -66,10 +66,10 @@ body {
                 transition: all ease-in-out .2s;
                 &:hover {
                     background: $white;
-                    color: #000;
+                    color: $black;
                 }
                 &:active {
-                    color: #fff;
+                    color: $white;
                     background: transparent;
                 }
             }
