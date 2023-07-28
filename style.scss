@@ -38,7 +38,6 @@ body {
         .name {
             display: none;
             label {
-                font-size: 20px;
                 padding: 5px 0px;
                 font-weight: bold;
                 color: $lightgreen;
@@ -47,7 +46,6 @@ body {
             input {
                 width: 250px;
                 height: 40px;
-                font-size: 20px;
                 outline: none;
                 border: 1px solid $darkred;
                 border-radius: 5px;
