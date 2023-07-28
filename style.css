@@ -44,14 +44,14 @@ body main .name input {
 }
 body main .name button {
   margin: 10px 0;
-  font-size: 20px;
-  padding: 8px 25px;
   cursor: pointer;
   background: #3498db;
   color: #fff;
-  border: 2px solid #3498db;
   border-radius: 5px;
   transition: all ease-in-out 0.2s;
+  font-size: 20px;
+  padding: 8px 25px;
+  border: 2px solid #3498db;
 }
 body main .name button:hover {
   background: #fff;
@@ -86,11 +86,10 @@ body main .wrapper .edit #edit {
   cursor: pointer;
   background: #3498db;
   color: #fff;
-  border: 2px solid #3498db;
+  border-radius: 5px;
   transition: all ease-in-out 0.2s;
   font-size: 15px;
   padding: 2px 5px;
-  border-radius: 5px;
   border: none;
 }
 body main .wrapper .edit #edit:hover {
